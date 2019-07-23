@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/animate-elems.css" />
+  <link rel="stylesheet" href="css/theme.9.css" />
+  <link rel="stylesheet" href="css/site.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display"-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <!-- START CODE FOR GWEB -->
+  <div id="piano-pg" class="gweb2">
+    <nav class="navbar navbar-expand-lg">
+      <div class="toggler-bg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          Pianos&nbsp;
+          <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <rect y="9" width="20" height="2"></rect>
+            <rect y="3" width="20" height="2"></rect>
+            <rect y="15" width="20" height="2"></rect>
+          </svg>
+        </button>
+        <img class="navbar-brand" src="images/yamaha-keyboards-logo.png" />
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navi-container">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="active">
+                <a href="index.html">Main <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="dropdown">
+                <a href="grands.html" id="grandsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Grands
+                </a>
+                <div class="dropdown-menu" aria-labelledby="grandsDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="grands.html">Overview</a>
+                    <a class="dropdown-item" href="gb1k-gc-series.html">GB1K/ GC Series</a>
+                    <a class="dropdown-item" href="cx-series.html">CX Series</a>
+                    <a class="dropdown-item" href="sx-series.html">SX Series</a>
+                    <a class="dropdown-item" href="cf-series.html">CF Series</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="uprights.html" id="uprightsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Uprights
+                </a>
+                <div class="dropdown-menu" aria-labelledby="uprightsDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="uprights.html">Overview</a>
+                    <a class="dropdown-item" href="u-series.html">U Series</a>
+                    <a class="dropdown-item" href="yus-series.html">YUS Series</a>
+                    <a class="dropdown-item" href="b-series.html">b Series</a>
+                    <a class="dropdown-item" href="p22.html">P22</a>
+                    <a class="dropdown-item" href="gallery-collection.html">Gallery Collection</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="hybrid.html" id="hybridDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Hybrid
+                </a>
+                <div class="dropdown-menu" aria-labelledby="hybridDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="disklavier.html">Disklavier</a>
+                    <a class="dropdown-item" href="silent.html">Silent</a>
+                    <a class="dropdown-item" href="transacoustic.html">TransAcoustic</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" id="digitalDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Digital
+                </a>
+                <div class="dropdown-menu" aria-labelledby="digitalDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="avantgrand.html">AvantGrand</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/index.html">Clavinova</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/p_series/index.html">P
+                      Series</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/arius/index.html">ARIUS</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/portable_grand/dgx-660/index.html">DGX660</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" id="exploreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Explore
+                </a>
+                <div class="dropdown-menu" aria-labelledby="exploreDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="premium-pianos.html">Premium Pianos</a>
+                    <a class="dropdown-item" target="_blank" href="http://www.yamaha.com/yasi/">Artists Services</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#FindDealer">Find a Dealer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="jumbotron d-flex align-items-center">
+      <video class="cover" src="media/Main Page_104_CC.mp4" loop autoplay muted></video>
+      <img class="mobile-hero-cover" src="images/homepageStill.jpg" />
+      <div class="content">
+        <h1 class="heading animate-elem slide-left mb-0">
+          Craftsmanship and innovation
+        </h1>
+        <h1 class="animate-elem slide-left">
+          in perfect harmony.
+        </h1>
+      </div>
+    </header>
+    <div class="uk-section-default uk-section uk-section-large">
+      <div class="uk-container uk-container-small">
+        <div class="uk-container uk-margin-large">
+          <div class="uk-grid-divider uk-grid uk-grid-stack" uk-grid="">
+            <div class="uk-width-1-1@m uk-first-column">
+              <h3 class="uk-margin uk-text-center uk-h3 uk-heading-line animate-elem slide-left" uk-scrollspy-class="">
+                <span>For over a century, Yamaha has blended a tradition of Japanese craftsmanship with innovations in
+                  modern materials and sound to create pianos of expectional tone and breathtaking beauty.</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-muted uk-section">
+      <div class="uk-container uk-container-large">
+        <div class="uk-container uk-container-large uk-grid-margin-small">
+          <div class="uk-grid-small uk-grid uk-grid-stack">
+            <div class="uk-width-expand@m uk-first-column"></div>
+            <div class="uk-width-expand@m uk-first-column">
+              <h1 class="uk-margin uk-text-center uk-h1 animate-elem slide-left">
+                <span class="header-underline">Acoustic</span>
+              </h1>
+              <hr class="uk-width-medium uk-margin-auto transparent">
+              <div class="uk-margin uk-width-medium uk-margin-auto uk-text-center animate-elem slide-left">
+                <p><span style="font-size: 20px; line-height:1.5;">Find the Yamaha acoustic piano that’s right for
+                    you.</span></p>
+              </div>
+            </div>
+            <div class="uk-width-expand@m"></div>
+          </div>
+        </div>
+        <div class="uk-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <div class="uk-margin uk-text-left animate-elem slide-left">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 500px;">
+                <canvas height="800" width="2000"></canvas><img
+                  alt="African American man in a sports jacket and slacks with his back to camera playing a baby grand piano in a modern house being viewed from outside through a 9-pane bay window."
+                  class="el-image uk-cover cover-lg" src="images/grands-horizontal.jpg">
+                <div class="uk-position-center-left">
+                  <div class="uk-panel uk-padding uk-width-large">
+                    <h2 class="el-title cta uk-margin uk-h1 uk-heading-divider animate-elem slide-left">
+                      <span class="cover-underline">Grands</span>
+                    </h2>
+                    <div class="el-content uk-margin animate-elem slide-left">
+                      <p><span class="text-white">The ultimate expression of the<br>
+                          piano maker’s art.</span></p>
+                    </div>
+                    <div class="explore-faux-lg">
+                      Explore
+                    </div>
+                  </div>
+                </div><a class="uk-position-cover" href="grands.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uk-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <div class="uk-margin uk-text-left animate-elem slide-left">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 500px;">
+                <canvas height="800" width="2000"></canvas><img
+                  alt="Young girl playing a Yamaha upright piano in her living room." class="el-image uk-cover cover-lg"
+                  src="images/upright2.jpg">
+                <div class="uk-position-center-left">
+                  <div class="uk-panel uk-padding uk-width-large">
+                    <h2 class="el-title cta uk-margin uk-h1 uk-heading-divider animate-elem slide-left">
+                      <span class="cover-underline">Uprights</span>
+                    </h2>
+                    <div class="el-content uk-margin animate-elem slide-left">
+                      <p><span class="text-white">Setting the standard by which <br>uprights are measured.</span></p>
+                    </div>
+                    <div class="explore-faux-lg">
+                      Explore
+                    </div>
+                  </div>
+                </div><a class="uk-position-cover" href="uprights.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-default uk-section uk-padding-remove-bottom">
+      <div class="uk-container uk-container-large">
+        <div class="uk-grid-margin uk-grid uk-grid-stack">
+          <div class="uk-width-expand@m uk-first-column"></div>
+          <div class="uk-width-expand@m uk-first-column">
+            <h1 class="uk-margin uk-text-center uk-h1">
+              <span class="header-underline">Hybrid</span>
+            </h1>
+            <hr class="uk-width-large uk-margin-auto transparent">
+            <div class="uk-margin uk-width-large uk-margin-auto uk-text-center">
+              <p><span style="font-size: 20px; line-height:1.5;">Reimagine the acoustic piano with Yamaha
+                  innovations.</span></p>
+            </div>
+          </div>
+          <div class="uk-width-expand@m"></div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-default uk-section uk-padding-remove-top">
+      <div class="uk-container">
+        <div class="uk-grid-small uk-grid-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 400px;">
+                <canvas height="800" width="2000"></canvas><img
+                  alt="Man in his 20's dressed casually with curly hair and some facial hair playing a Yamaha piano."
+                  class="el-image uk-cover cover-md" src="images/dkv-new.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left">
+                  <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                    <span class="cover-underline pb-2">Disklavier</span>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">The world's most advanced piano.</span></p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div>
+                <a class="uk-position-cover" href="disklavier.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uk-grid-small uk-margin uk-grid">
+          <div class="uk-width-expand@m uk-first-column">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 500px;">
+                <canvas height="800" width="1200"></canvas><img
+                  alt="Young boy playing an upright piano in his living room wearing headphones while his mother and younger brother hang out undisturbed behind him. "
+                  class="el-image uk-cover cover-sm" src="images/silent.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left">
+                  <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                    <span class="cover-underline pb-2">Silent Piano</span>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">Silence without sacrifice.</span></p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div><a class="uk-position-cover" href="silent.html"></a>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-expand@m mobile-mt-15">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 500px;">
+                <canvas height="800" width="1200"></canvas><img
+                  alt="Young woman playing a Yamaha piano with a tablet-style screen above the keyboard which is providing information on the CFX Grand piano."
+                  class="el-image uk-cover cover-sm" src="images/TransAcoustic.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left uk-width-medium">
+                  <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                    <span class="cover-underline pb-2">TransAcoustic</span>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">A new breed of piano</span>.&nbsp;</p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div><a class="uk-position-cover" href="transacoustic.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-muted uk-section uk-padding-remove-bottom">
+      <div class="uk-container uk-container-large">
+        <div class="uk-grid-margin uk-grid uk-grid-stack">
+          <div class="uk-width-expand@m uk-first-column"></div>
+          <div class="uk-width-expand@m uk-first-column">
+            <h1 class="uk-margin uk-text-center uk-h1">
+              <span class="header-underline">Digital</span>
+            </h1>
+            <hr class="uk-width-large uk-margin-auto transparent">
+            <div class="uk-margin uk-width-large uk-margin-auto uk-text-center">
+              <p><span style="font-size: 20px; line-height:1.5;">See how Yamaha does digital.</span></p>
+            </div>
+          </div>
+          <div class="uk-width-expand@m"></div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-muted uk-section uk-padding-remove-top uk-padding-remove-bottom">
+      <div class="uk-container">
+        <div class="uk-grid-small uk-margin uk-grid">
+          <div class="uk-width-expand@m uk-first-column">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 500px;">
+                <canvas height="800" width="1200"></canvas><img
+                  alt="A woman in her 20's with short hair in jeans and oversized cardigan sweater playing what looks like a modern upright with an open legwork design in a living room."
+                  class="el-image uk-cover cover-sm" src="images/avantgrand.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left">
+                  <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                    <span class="cover-underline pb-2">AvantGrand</span>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">The best of both worlds.</span></p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div><a class="uk-position-cover" href="avantgrand.html"></a>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-expand@m mobile-mt-15">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 500px;">
+                <canvas height="800" width="1200"></canvas><img
+                  alt="An upright piano with a tablet on the music holder in a corner of a dining room."
+                  class="el-image uk-cover cover-sm" src="images/clavinova.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left uk-width-medium">
+                  <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                    <span class="cover-underline pb-2">Clavinova</span>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">The piano that changed everything.</span>.&nbsp;</p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div><a class="uk-position-cover" target="_blank"
+                  href="https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/index.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uk-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-grid-item-match uk-flex-middle uk-first-column">
+            <div class="uk-panel">
+              <div class="uk-margin uk-text-left animate-elem">
+                <div class="el-container uk-inline-clip uk-light" style="min-height: 400px;">
+                  <canvas height="800" width="2000"></canvas><img
+                    alt="Young person in jeans and track jacket playing a keyboard in funky one-room studio apartment."
+                    class="el-image uk-cover cover-md" src="images/p.jpg">
+                  <div class="uk-panel uk-padding uk-position-bottom-left uk-width-large">
+                    <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                      <span class="cover-underline pb-2">P Series</span>
+                    </h3>
+                    <div class="el-content">
+                      <p><span class="text-white">The piano that goes where you go.</span></p>
+                    </div>
+                    <div class="explore-faux-sm">
+                      Explore
+                    </div>
+                  </div><a class="uk-position-cover" target="_blank"
+                    href="https://usa.yamaha.com/products/musical_instruments/pianos/p_series/index.html"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uk-grid-small uk-margin uk-grid">
+          <div class="uk-width-expand@m uk-first-column">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 400px;">
+                <canvas height="800" width="1200"></canvas><img
+                  alt="Young woman dressed in business casual clothing and jacket getting ready to leave for work in her small bedroom with a sleek, compact Yamaha piano with cover closed against wall."
+                  class="el-image uk-cover cover-sm" src="images/arius-new.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left">
+                  <h3 class="el-title cta uk-margin uk-heading-divider mb-10">
+                    <span class="cover-underline pb-2">ARIUS</span>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">Grand tone for smaller spaces.</span></p>
+                    <p></p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div><a class="uk-position-cover" target="_blank"
+                  href="https://usa.yamaha.com/products/musical_instruments/pianos/arius/index.html"></a>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-expand@m mobile-mt-15">
+            <div class="uk-margin uk-text-left animate-elem">
+              <div class="el-container uk-inline-clip uk-light" style="min-height: 400px;">
+                <canvas height="800" width="1200"></canvas><img
+                  alt="Blonde woman in her late 20's in her living room seated at and playing her Yamaha electronic keyboard while singing into a microphone."
+                  class="el-image uk-cover cover-sm" src="images/DGX-660-KeyVidual-22cdb435.jpg">
+                <div class="uk-panel uk-padding uk-position-bottom-left">
+                  <h3 class="el-title cta uk-margin mb-10">
+                    <div class="cover-underline">
+                      <span class="pb-2">DGX 660/ Portable Grand</span>
+                    </div>
+                  </h3>
+                  <div class="el-content">
+                    <p><span class="text-white">Play. Sing. Share. Repeat.</span></p>
+                  </div>
+                  <div class="explore-faux-sm">
+                    Explore
+                  </div>
+                </div><a class="uk-position-cover" target="_blank"
+                  href="https://usa.yamaha.com/products/musical_instruments/pianos/portable_grand/dgx-660/index.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="FindDealer" class="uk-section-muted uk-section uk-section-large">
+      <div class="uk-container">
+        <div class="uk-grid-small uk-grid-divider uk-grid-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <h2 class="uk-margin uk-text-center uk-h1">
+              <span class="header-underline">Find a Dealer</span>
+            </h2><br />
+            <div class="uk-margin uk-text-center"><img alt="" class="el-image" src="images/cta-trans-142c2523.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-primary uk-section">
+      <div class="uk-container">
+        <div class="uk-grid-divider uk-grid-margin uk-grid">
+          <div class="uk-width-expand@m uk-first-column">
+            <div class="uk-margin uk-width-large uk-margin-auto uk-panel">
+              <h3 class="uk-margin text-white">Apps for iOS and Android™</h3>
+              <div class="uk-margin text-white">
+                Make the most of your Yamaha piano with the latest mobile music apps.
+              </div>
+              <p><a class="el-link uk-button uk-button-default" target="_blank"
+                  href="https://usa.yamaha.com/products/musical_instruments/pianos/apps/index.html">Read more</a></p>
+            </div>
+          </div>
+          <div class="uk-width-expand@m">
+            <hr class="footer-divider" />
+            <div class="uk-margin uk-width-large uk-margin-auto-left uk-panel">
+              <h3 class="uk-margin text-white">Accessories</h3>
+              <div class="uk-margin text-white">
+                Accessorize your piano with everything from headphones and cases to foot pedals and monitor speakers.
+              </div>
+              <p><a class="el-link uk-button uk-button-default" target="_blank"
+                  href="https://usa.yamaha.com/products/musical_instruments/pianos/accessories/index.html">Read more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- END CODE FOR GWEB -->
+
+
+</body>
+
+</html>
+<script src="js/nav.js" type="text/javascript"></script>
+<script src="js/animation-elements.js" type="text/javascript"></script>

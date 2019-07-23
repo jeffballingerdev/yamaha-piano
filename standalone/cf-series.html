@@ -1,0 +1,531 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/animate-elems.css" />
+  <link rel="stylesheet" href="css/theme.9.css" />
+  <link rel="stylesheet" href="css/site.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display"-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <!-- START CODE FOR GWEB -->
+  <div id="piano-pg" class="gweb2">
+    <nav class="navbar navbar-expand-lg">
+      <div class="toggler-bg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          Pianos&nbsp;
+          <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <rect y="9" width="20" height="2"></rect>
+            <rect y="3" width="20" height="2"></rect>
+            <rect y="15" width="20" height="2"></rect>
+          </svg>
+        </button>
+        <img class="navbar-brand" src="images/yamaha-keyboards-logo.png" />
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navi-container">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li>
+                <a href="index.html">Main</a>
+              </li>
+              <li class="dropdown active">
+                <a href="grands.html" id="grandsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Grands <span class="sr-only">(current)</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="grandsDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="grands.html">Overview</a>
+                    <a class="dropdown-item" href="gb1k-gc-series.html">GB1K/ GC Series</a>
+                    <a class="dropdown-item" href="cx-series.html">CX Series</a>
+                    <a class="dropdown-item" href="sx-series.html">SX Series</a>
+                    <a class="dropdown-item" href="cf-series.html">CF Series</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="uprights.html" id="uprightsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Uprights
+                </a>
+                <div class="dropdown-menu" aria-labelledby="uprightsDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="uprights.html">Overview</a>
+                    <a class="dropdown-item" href="u-series.html">U Series</a>
+                    <a class="dropdown-item" href="yus-series.html">YUS Series</a>
+                    <a class="dropdown-item" href="b-series.html">b Series</a>
+                    <a class="dropdown-item" href="p22.html">P22</a>
+                    <a class="dropdown-item" href="gallery-collection.html">Gallery Collection</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="hybrid.html" id="hybridDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Hybrid
+                </a>
+                <div class="dropdown-menu" aria-labelledby="hybridDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="disklavier.html">Disklavier</a>
+                    <a class="dropdown-item" href="silent.html">Silent</a>
+                    <a class="dropdown-item" href="transacoustic.html">TransAcoustic</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" id="digitalDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Digital
+                </a>
+                <div class="dropdown-menu" aria-labelledby="digitalDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="avantgrand.html">AvantGrand</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/index.html">Clavinova</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/p_series/index.html">P
+                      Series</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/arius/index.html">ARIUS</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/portable_grand/dgx-660/index.html">DGX660</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" id="exploreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Explore
+                </a>
+                <div class="dropdown-menu" aria-labelledby="exploreDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="premium-pianos.html">Premium Pianos</a>
+                    <a class="dropdown-item" target="_blank" href="http://www.yamaha.com/yasi/">Artists Services</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#FindDealer">Find a Dealer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="jumbotron d-flex align-items-center">
+      <div class="hero-cover-bg"></div>
+      <img class="hero-cover" src="images/cf-header-b6e24f63.jpg" srcset="images/cf-series-4k.jpg 4x" />
+      <div class="content">
+        <h1 class="heading animate-elem slide-left mb-0">
+          CF Series
+        </h1>
+        <h1 class="animate-elem slide-left">
+          Our flagship concert grand.
+        </h1>
+      </div>
+    </header>
+    <div class="uk-section-default uk-section uk-section-large">
+      <div class="uk-container uk-container-small">
+        <div class="uk-container uk-margin-large">
+          <div class="uk-grid-divider uk-grid uk-grid-stack" uk-grid="">
+            <div class="uk-width-1-1@m uk-first-column">
+              <h3 class="uk-margin uk-margin-auto uk-text-center uk-h3 uk-heading-line animate-elem">
+                <span>Our Flagship CF Series is the culmination of nearly two decades of research and development to
+                  create the world’s finest concert grand piano. The CF is the rare union of clarity of tone and power
+                  that pianists crave. Each piano is crafted entirely by hand for a precise response that brings depth,
+                  nuance and an endless range of colors to the player’s tonal palette. It is simply a superb
+                  instrument.</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-secondary uk-section uk-section-large">
+      <div class="uk-container">
+        <div class="uk-margin-remove-bottom uk-grid-collapse uk-margin uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <div class="uk-margin">
+              <div class="uk-child-width-expand uk-grid-large uk-grid">
+                <div class="uk-width-1-3@m uk-first-column">
+                  <h1 class="uk-margin uk-text-left uk-h1 text-white">Features</h1>
+                  <hr class="purple" />
+                  <ul class="feature-tabs uk-tab-left el-nav uk-tab">
+                    <li class="switchable uk-active">
+                      <a data-toggle="tab" href="#featurea">The finest of the finest wood.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featureb">Handcrafted by master builders.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featurec">A case for resonance.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featured">Hand-modeled, sand casted frame.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featuree">Like no hammers on Earth.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featuref">Hand-wound bass strings.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featureg">Voice regulated and tuned to perfection.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featureh">Beautiful inside and out.</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="feature-list tab-content">
+                    <li id="featurea" class="tab-pane fade in active">
+                      <img alt="A row of milled boards unassembled and unfinished."
+                        src="images/premium-soundboard-5acd0f6b.jpg">
+                      <div class="uk-margin">
+                        Yamaha craftsmen hand-select the top one percent of wood from around the world at our Kitami
+                        Mill in Hokkaido, Japan. The inherent resonance of these woods, from European Spruce in the
+                        soundboard and ribs to mahogany and maple in the rims, helps give CF pianos their huge,
+                        well-rounded sound and extraordinary range of colors.
+                      </div>
+                    </li>
+                    <li id="featureb" class="tab-pane fade">
+                      <img alt="A man in work gloves using a special tool to assemble interior of a piano."
+                        src="images/feature2.jpg">
+                      <div class="uk-margin">
+                        The CF soundboards, ribs, back posts and rims are crafted and assembled by hand in our Concert
+                        Piano Workshop in Kakegawa, Japan to assure that nothing gets in the way of the clear, rich
+                        vibrations of the wood.
+                      </div>
+                    </li>
+                    <li id="featurec" class="tab-pane fade">
+                      <img alt="A view of the back beam and posts where they meet the frame on an unfinished piano."
+                        src="images/feature3.jpg">
+                      <div class="uk-margin">
+                        The innovative shape and thickness of the back beam and posts help give CF pianos the backbone
+                        and power to fill the world’s most famous concert halls with warm, nuanced sound.
+                      </div>
+                    </li>
+                    <li id="featured" class="tab-pane fade">
+                      <img alt="Finished frame not yet installed in piano." src="images/feature4.jpg">
+                      <div class="uk-margin">
+                        Every CF frame is built by hand to our exacting specifications at our Iwata Forge in Japan.
+                      </div>
+                    </li>
+                    <li id="featuree" class="tab-pane fade">
+                      <img
+                        alt="Two small wood pieces with each head wrapped in felt on a table with another one plus a handful of felt on table in background."
+                        src="images/Hammer-Felt-3-bfe41dd9.jpg">
+                      <div class="uk-margin">
+                        Yamaha craftsmen spent nearly two decades experimenting with shapes, sizes and materials of the
+                        hammers so they perform in perfect harmony with every part of the CF piano.
+                      </div>
+                    </li>
+                    <li id="featuref" class="tab-pane fade">
+                      <img
+                        alt="Closeup of bass strings in a finished piano showing that each of the strings are wrapped in another wire."
+                        src="images/strings-04bf4928.jpg">
+                      <div class="uk-margin">
+                        Our artisans painstakingly wind pure copper by hand to adjust the balance and tension of each
+                        bass string to the exacting standards and sound profile of every CF piano. You will hear the
+                        attention to detail in every note.
+                      </div>
+                    </li>
+                    <li id="featureg" class="tab-pane fade">
+                      <img
+                        alt="Someone is using a rachet tool to turn the pins that tighten or loosen the piano string in a grand piano."
+                        src="images/voicing.jpg">
+                      <div class="uk-margin">
+                        Each CF piano is meticulously voiced, regulated and tuned by master technicians in our Concert
+                        Piano Workshop to bring out the nuanced colors, harmonics and resonance from this superb
+                        instrument.
+                      </div>
+                    </li>
+                    <li id="featureh" class="tab-pane fade">
+                      <img alt="View of a Yamaha grand piano's keyboard." src="images/beauty-5dd20b86.jpg">
+                      <div class="uk-margin">
+                        The finish of the CF is applied by hand, one layer at a time, and buffed to our stringent
+                        specifications using traditional methods. A semi-gloss finish is applied on the top board to
+                        reduce distracting reflections from stage lights.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-section-default uk-section">
+      <div class="uk-container uk-container-small">
+        <div class="uk-grid-margin uk-grid uk-grid-stack">
+          <div class="uk-width-expand@m uk-first-column">
+            <div class="uk-margin">
+              <ul class="uk-margin uk-flex-center el-nav uk-tab">
+                <li aria-expanded="true" class="active">
+                  <a href="#CFX-tab" data-toggle="tab">CFX</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CF6-tab" data-toggle="tab">CF6</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CF4-tab" data-toggle="tab">CF4</a>
+                </li>
+              </ul>
+              <ul class="tab-content">
+                <li id="CFX-tab" class="el-item tab-pane fade in active">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img
+                        alt="Yamaha grand piano with lid open viewed from right side." src="images/cfx-ee086682.jpg">
+                    </div>
+                    <div>
+                      <h3 class="uk-margin">CFX</h3>
+                      <div class="uk-margin">
+                        <p><img alt="Line drawings showing dimensions." src="images/cfx.png"></p>
+                        <p class="prod-info">
+                          Handcrafted by Yamaha master builders at our Concert Piano Workshop in Kakegawa, Japan<br>
+                          Rims: Mahogany and hard maple<br>
+                          Soundboard: European Spruce<br>
+                          Soundboard Ribs: European Spruce<br>
+                          Back Posts: 4 – Yezo Spruce<br>
+                          Bridge Construction: One-piece continuous<br>
+                          Frame: Hand-molded, sand casted iron<br>
+                          Tone Collector: Yes<br>
+                          Key Material: Seasoned Sitka Spruce<br>
+                          White key surfaces: Ivorite<span style="font-family: 'Roboto';">™</span><br>
+                          Black Key surfaces: Ebony<br>
+                          Fallboard: Soft-close<br>
+                          Lid lock: Yes<br>
+                          Pedal: Shift/Sostenuto/Damper with adjustable lyre brace<br>
+                          Caster: Heavy duty double-wheeled solid brass casters with locks<br>
+                          Weight: 1,082 lbs (491 kg)</p>
+                        <p>$179,999 MSRP. Prices may vary. Contact your authorized Yamaha Dealer for details.</p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/CFX-1-PolishedEbony-swatch.png" title="Polished Ebony" />
+                        </div>
+                        <p><img class="tech-logo" alt="enspire logo" src="images/enspire-logo.png" /></p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CF6-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m"><img alt="Yamaha grand piano with lid open viewed from right side."
+                        src="images/CF6-37f227fb.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CF6</h3>
+                      <div class="uk-margin">
+                        <p><img alt="Line drawings showing dimensions." src="images/cf6-line.png"></p>
+                        <p class="prod-info">
+                          Handcrafted by Yamaha master builders at our Concert Piano Workshop in Kakegawa, Japan<br>
+                          Rims: Mahogany and hard maple<br>
+                          Soundboard: European Spruce<br>
+                          Soundboard Ribs: European Spruce<br>
+                          Back Posts: 4 – Yezo Spruce<br>
+                          Bridge Construction: Two-piece separated<br>
+                          Frame: Hand molded, sand casted iron<br>
+                          Tone Collector: Yes<br>
+                          Key Material: Seasoned Sitka spruce<br>
+                          White key surfaces: Ivorite<span style="font-family: 'Roboto';">™</span><br>
+                          Black Key surfaces: Ebony<br>
+                          Fallboard: Soft-close<br>
+                          Lid lock: Yes<br>
+                          Pedal: Shift/Sostenuto/Damper with adjustable lyre brace<br>
+                          Caster: Heavy duty double-wheeled solid brass casters with locks<br>
+                          Weight: 901 lbs (409 kg)</p>
+                        <p>$119,999 MSRP. Prices may vary. Contact your authorized Yamaha Dealer for details.</p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/CF6-1-PolishedEbony-swatch.png" title="Polished Ebony" />
+                        </div>
+                        <p><img class="tech-logo" alt="enspire logo" src="images/enspire-logo.png" /></p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CF4-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m"><img alt="Yamaha grand piano with lid open viewed from right side."
+                        src="images/CF4-b20a0534.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CF4</h3>
+                      <div class="uk-margin">
+                        <p><img alt="Line drawings with dimensions" src="images/cf4-finish.png"></p>
+                        <p class="prod-info">
+                          Handcrafted by Yamaha master builders at our Concert Piano Workshop in Kakegawa, Japan<br>
+                          Rims: Mahogany and hard maple<br>
+                          Soundboard: European Spruce<br>
+                          Soundboard Ribs: European Spruce<br>
+                          Back Posts: 4 – Yezo Spruce<br>
+                          Bridge Construction: Two-piece separated<br>
+                          Frame: Hand molded, sand casted iron<br>
+                          Tone Collector: Yes<br>
+                          Key Material: Seasoned Sitka spruce<br>
+                          White key surfaces: Ivorite<span style="font-family: 'Roboto';">™</span><br>
+                          Black Key surfaces: Ebony<br>
+                          Fallboard: Soft-close<br>
+                          Lid lock: Yes<br>
+                          Pedal: Shift/Sostenuto/Damper with adjustable lyre brace<br>
+                          Caster: Heavy duty double-wheeled solid brass casters with locks<br>
+                          Weight: 806 lbs (366 kg)</p>
+                        <p>$105,599 MSRP. Prices may vary. Contact your authorized Yamaha Dealer for details.</p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/CF4-1-PolishedEbony-swatch.png" title="Polished Ebony" />
+                        </div>
+                        <p><img class="tech-logo" alt="enspire logo" src="images/enspire-logo.png" /></p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- find a dealer -->
+    <div id="FindDealer" class="uk-section-muted uk-section uk-section-large">
+      <div class="uk-container">
+        <div class="uk-grid-small uk-grid-divider uk-grid-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <h2 class="uk-margin uk-text-center uk-h1">
+              <span class="header-underline">Find a Dealer</span>
+            </h2><br />
+            <div class="uk-margin uk-text-center"><img alt="" src="images/cta-trans-142c2523.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="uk-section-default uk-section uk-section-large">
+      <div class="uk-container">
+        <div class="uk-margin-medium uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <h1 class="uk-margin uk-text-center uk-h1">Gallery</h1>
+            <ul class="uk-margin uk-flex-center el-nav uk-tab">
+              <li aria-expanded="true" class="active">
+                <a href="#gallery-tab" data-toggle="tab">Images</a>
+              </li>
+              <li aria-expanded="false">
+                <a href="#video-tab" data-toggle="tab">Video</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div id="gallery-tab" class="tab-pane fade in active">
+            <div class="uk-grid-small uk-grid-margin-small uk-grid">
+              <div class="uk-width-expand@m uk-first-column">
+                <div class="uk-margin uk-panel"><img
+                    alt="A view of a Yamaha concert grand with the lid open and view of keys and inner workings on an otherwise empty stage."
+                    src="images/CFX_Segerstrom-93b66379.jpg" /></div>
+              </div>
+              <div class="uk-width-expand@m mobile-mt-15">
+                <div class="uk-margin uk-panel"><img
+                    alt="A view of the left side of a piano with a focus on the highly polished finish."
+                    data-height="600" src="images/p_0500_009-25ab2030.jpg" />
+                </div>
+                <div class="uk-margin uk-panel"><img
+                    alt="View of interior of a Yamaha concert grand on stage in an empty concert hall."
+                    src="images/CF-on-stage-from-end-of-piano-40cb9bce.jpg" /></div>
+              </div>
+            </div>
+
+
+            <div class="uk-grid-small uk-grid-margin-small uk-grid">
+              <div class="uk-width-expand@m uk-first-column">
+                <div class="uk-margin uk-panel">
+                  <img alt="" src="images/CFX-at-Theatre-des-Champs-Elysees-6321667b.jpg">
+                </div>
+                <div class="uk-margin uk-panel">
+                  <img alt="A woman playing a Yamaha concert grand piano with the lid open in a large empty space."
+                    src="images/p_0500_017-f1dfe735.jpg">
+                </div>
+              </div>
+              <div class="uk-width-expand@m mobile-mt-15">
+                <div class="uk-margin uk-panel">
+                  <img
+                    alt="A Yamaha concert grand piano front and center on a fancy performance hall set for an orchestral performance."
+                    src="images/yq_1005_cf_portrait-d38fd766.jpg">
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div id="video-tab" class="tab-pane fade">
+            <div class="uk-grid-small uk-grid-margin-small uk-grid">
+              <div class="uk-width-expand@m uk-first-column">
+                <div class="uk-margin videoWrapper">
+                  <iframe allowfullscreen class="uk-responsive-width" height="360"
+                    src="https://player.vimeo.com/video/316655205" width="640"></iframe>
+                </div>
+              </div>
+              <div class="uk-width-expand@m mobile-mt-15">
+                <div class="uk-margin videoWrapper">
+                  <iframe allowfullscreen class="uk-responsive-width" height="360"
+                    src="https://player.vimeo.com/video/316655185" width="640"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="uk-grid-small uk-grid-margin-small uk-grid">
+              <div class="uk-width-expand@m uk-first-column">
+                <div class="uk-margin videoWrapper">
+                  <iframe allowfullscreen class="uk-responsive-width" height="360"
+                    src="https://player.vimeo.com/video/316655225" width="640"></iframe>
+                </div>
+              </div>
+              <div class="uk-width-expand@m mobile-mt-15">
+                <div class="uk-margin videoWrapper">
+                  <iframe allowfullscreen class="uk-responsive-width" height="360"
+                    src="https://player.vimeo.com/video/316655150" width="640"></iframe>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- END CODE FOR GWEB -->
+
+
+</body>
+
+</html>
+<script src="js/nav.js" type="text/javascript"></script>
+<script src="js/animation-elements.js" type="text/javascript"></script>
+<script src="js/site.js" type="text/javascript"></script>

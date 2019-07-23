@@ -1,0 +1,28 @@
+#piano-pg .animate-elem {
+  opacity: 0;
+  position: relative;
+}
+
+#piano-pg .animate-elem.in-view {
+  opacity: 1;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+}
+
+#piano-pg .animate-elem.slide-left {
+  -moz-transform: translate3d(-10px, 0px, 0px);
+  -webkit-transform: translate3d(-10px, 0px, 0px);
+  -o-transform: translate(-10px, 0px);
+  -ms-transform: translate(-10px, 0px);
+  transform: translate3d(-10px, 0px, 0px);
+}
+
+#piano-pg .animate-elem.slide-left.in-view {
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
