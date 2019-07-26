@@ -36,7 +36,6 @@ function checkPianoPgWindowSize() {
   if (window.innerWidth <= 991) {
     // open up all the menu items so they can be displayed vertically
     $('#piano-pg .navbar-nav .dropdown-menu').removeClass('fade').addClass('show');
-    // $('.navbar').removeClass('sticky-top');
   }
   else {
     // close all dropdowns incase we are scrolling up from mobile size
