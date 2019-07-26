@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/animate-elems.css" />
+  <link rel="stylesheet" href="css/theme.9.css" />
+  <link rel="stylesheet" href="css/site.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display"-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <!-- START CODE FOR GWEB -->
+  <div id="piano-pg" class="gweb2">
+    <nav class="navbar navbar-expand-lg">
+      <div class="toggler-bg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          Pianos&nbsp;
+          <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <rect y="9" width="20" height="2"></rect>
+            <rect y="3" width="20" height="2"></rect>
+            <rect y="15" width="20" height="2"></rect>
+          </svg>
+        </button>
+        <img class="navbar-brand" src="images/yamaha-keyboards-logo.png" />
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navi-container">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li>
+                <a href="index.html">Main</a>
+              </li>
+              <li class="dropdown">
+                <a href="grands.html" id="grandsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Grands <span class="sr-only">(current)</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="grandsDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="grands.html">Overview</a>
+                    <a class="dropdown-item" href="gb1k-gc-series.html">GB1K/ GC Series</a>
+                    <a class="dropdown-item" href="cx-series.html">CX Series</a>
+                    <a class="dropdown-item" href="sx-series.html">SX Series</a>
+                    <a class="dropdown-item" href="cf-series.html">CF Series</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="uprights.html" id="uprightsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Uprights
+                </a>
+                <div class="dropdown-menu" aria-labelledby="uprightsDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="uprights.html">Overview</a>
+                    <a class="dropdown-item" href="u-series.html">U Series</a>
+                    <a class="dropdown-item" href="yus-series.html">YUS Series</a>
+                    <a class="dropdown-item" href="b-series.html">b Series</a>
+                    <a class="dropdown-item" href="p22.html">P22</a>
+                    <a class="dropdown-item" href="gallery-collection.html">Gallery Collection</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="hybrid.html" id="hybridDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Hybrid
+                </a>
+                <div class="dropdown-menu" aria-labelledby="hybridDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="disklavier.html">Disklavier</a>
+                    <a class="dropdown-item" href="silent.html">Silent</a>
+                    <a class="dropdown-item" href="transacoustic.html">TransAcoustic</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown active">
+                <a href="digital.html" id="digitalDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Digital
+                </a>
+                <div class="dropdown-menu" aria-labelledby="digitalDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="avantgrand.html">AvantGrand</a>
+                    <a class="dropdown-item" href="clavinova.html">Clavinova</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/p_series/index.html">P
+                      Series</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/arius/index.html">ARIUS</a>
+                    <a class="dropdown-item" target="_blank"
+                      href="https://usa.yamaha.com/products/musical_instruments/pianos/portable_grand/dgx-660/index.html">DGX660</a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" id="exploreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Explore
+                </a>
+                <div class="dropdown-menu" aria-labelledby="exploreDropdown">
+                  <div class="d-flex justify-content-between">
+                    <a class="dropdown-item" href="our-story.html">Our Story</a>
+                    <a class="dropdown-item" href="our-craft.html">Our Craft</a>
+                    <a class="dropdown-item" href="premium-pianos.html">Premium Pianos</a>
+                    <a class="dropdown-item" target="_blank" href="http://www.yamaha.com/yasi/">Artists Services</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#FindDealer">Find a Dealer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="jumbotron d-flex align-items-center">
+      <img class="hero-cover" src="images/clp-hero.jpg" />
+      <div class="content">
+        <h1 class="heading animate-elem slide-left mb-0">
+          Clavinova CLP
+        </h1>
+        <h1 class="animate-elem slide-left">
+          Acoustic piano, is that you?
+        </h1>
+      </div>
+    </header>
+    <div class="uk-section-default uk-section uk-section-large">
+      <div class="uk-container uk-container-small">
+        <div class="uk-container uk-margin-large">
+          <div class="uk-grid-divider uk-grid uk-grid-stack">
+            <div class="uk-width-1-1@m uk-first-column">
+              <h3 class="uk-margin uk-text-center uk-h3 uk-heading-line uk-scrollspy-inview animate-elem slide-left">
+                <span>The soul of a Yamaha acoustic piano. The heart of Yamaha innovation. Clavinova CLP blurs the line
+                  between acoustic and digital with authentic grand piano touch, tone and power. All with intuitive
+                  controls that let you do things only Yamaha digital pianos can do.</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-section-secondary uk-section uk-section-large">
+      <div class="uk-container">
+        <div class="uk-margin-remove-bottom uk-grid-collapse uk-margin uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <div class="uk-margin">
+              <div class="uk-child-width-expand uk-grid-large uk-grid">
+                <div class="uk-width-1-3@m uk-first-column">
+                  <h1 class="uk-margin uk-text-left text-white">Features</h1>
+                  <hr class="purple" />
+                  <ul class="feature-tabs uk-tab-left el-nav uk-tab">
+                    <li class="switchable uk-active">
+                      <a data-toggle="tab" href="#featurea">The world’s finest concert grands at your fingertips.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featureb">Grand touch.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featurec">Keys the other digital pianos can’t touch.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featured">Authentic acoustic resonance.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featuree">Beautiful in every way.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featuref">Intuitive iOS controls.</a>
+                    </li>
+                    <li class="switchable">
+                      <a data-toggle="tab" href="#featureg">Dual and Split Voice Modes.</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="feature-list tab-content">
+                    <li id="featurea" class="tab-pane fade in active">
+                      <img src="images/wood-features2.jpg">
+                      <div class="uk-margin">
+                        Our advanced binaural recording process recreates the tone, power and nuanced colors of our
+                        flagship Yamaha CFX and Bösendorfer Imperial concert grands. The resulting sound is so natural
+                        you’ll almost forget you’re playing a digital piano.
+                      </div>
+                    </li>
+                    <li id="featureb" class="tab-pane fade">
+                      <img src="images/feature-backpost.jpg">
+                      <div class="uk-margin">
+                        Weighted, graded keys reproduce the authentic touch, response and natural key return of a grand
+                        piano while our Smooth Release Technology models the subtle interactions of the piano strings
+                        with the damper.
+                      </div>
+                    </li>
+                    <li id="featurec" class="tab-pane fade">
+                      <img src="images/frame-4.jpg">
+                      <div class="uk-margin">
+                        Our proprietary synthetic ebony and ivory keytops have a natural, comfortable feel that players
+                        of all levels can’t wait to get their hands on.
+                        Note: Are key tops important enough to be a feature? It feels like small news that can be
+                        addressed in specs. I’ll let you guys make the call.
+                      </div>
+                    </li>
+                    <li id="featured" class="tab-pane fade">
+                      <img src="images/u-hammers.jpg">
+                      <div class="uk-margin">
+                        Two proprietary technologies work together to emulate the natural feeling of an acoustic piano.
+                        Our innovative Virtual Resonance Modeling (VRM) recreates the resonance of the soundboard, rim
+                        and frame. And our Tactile Response System (TRS) reproduces the subtle sensation you feel in
+                        your hands and feet while pressing the keys and pedals. Even when playing with headphones.
+                        (note: is TRS available in Clavinova? Or is this only an Avant Grand innovation? If not, do we
+                        have a TRS style system for Clavinova?)
+                      </div>
+                    </li>
+                    <li id="featuree" class="tab-pane fade">
+                      <img src="images/bass-strings.jpg">
+                      <div class="uk-margin">
+                        Clavinova CLP is available in a wide range of cabinet designs, finishes and colors. A stunning
+                        addition to your home, no matter which model you choose.
+                      </div>
+                    </li>
+                    <li id="featuref" class="tab-pane fade">
+                      <img src="images/center-rail.jpg">
+                      <div class="uk-margin">
+                        Clavinova CLP can do more than ever. Now it’s easy to access all of it with your iOS device. The
+                        Yamaha Controller App lets you adjust settings, choose Voices, record performances and more.
+                      </div>
+                    </li>
+                    <li id="featureg" class="tab-pane fade">
+                      <img src="images/center-rail.jpg">
+                      <div class="uk-margin">
+                        Piano and Strings. Bass and guitar. French Horn and Cello. Dual and Split Voice modes lets you
+                        play two Voices at the same time for nearly infinite musical inspiration.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-section-default uk-section">
+      <div class="uk-container uk-container-small">
+        <div class="uk-grid-margin uk-grid uk-grid-stack">
+          <div class="uk-width-expand@m uk-first-column">
+            <div class="uk-margin">
+              <ul class="uk-margin uk-flex-center el-nav uk-tab">
+                <li aria-expanded="true" class="active">
+                  <a href="#CLP-695GP-tab" data-toggle="tab">CLP-695GP</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CLP-685-tab" data-toggle="tab">CLP-685</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CLP-675-tab" data-toggle="tab">CLP-675</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CLP-665GP-tab" data-toggle="tab">CLP-665GP</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CLP-645-tab" data-toggle="tab">CLP-645</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CLP-635-tab" data-toggle="tab">CLP-635</a>
+                </li>
+                <li aria-expanded="false">
+                  <a href="#CLP-625-tab" data-toggle="tab">CLP-625</a>
+                </li>
+              </ul>
+              <ul class="tab-content">
+                <li id="CLP-695GP-tab" class="el-item tab-pane fade in active">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-695GP.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-695GP</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                          Binaural CFX Sampling
+                          GrandTouch Keyboard
+                          Linear Graded Hammers
+                          Key Counterweights
+                          Virtual Resonance Modeling (VRM)
+                          Key-off Samples
+                          Bluetooth Audio
+                          Tri-Amp System
+                          Spruce-cone Speaker System
+                          Included Accessories: Bench, 50 Classical Music Masterpieces Book, Headphones Hanger, Owner's
+                          Manual, Power Cable 1-15P to C7 Polarized (2 Prong)
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$8,499 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$8,499 MSRP." />
+                          <img class="h-100" src="images/C1X-4-PolishedWhite-swatch.png" title="Polished White"
+                            price="$9,999 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CLP-685-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-685.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-685</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                          Binaural CFX Sampling
+                          GrandTouch Keyboard
+                          Linear Graded Hammers
+                          Key Counterweights
+                          Virtual Resonance Modeling (VRM)
+                          Key-off Samples
+                          Bluetooth Audio
+                          Tri-Amp System
+                          Spruce-cone Speaker System
+                          Included Accessories: Bench, 50 Classical Music Masterpieces Book, Headphones Hanger, Owner's
+                          Manual, Power Cable 1-15P to C7 Polarized (2 Prong)
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$7,499 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$7,499 MSRP." />
+                          <img class="h-100" src="images/C1X-2-SatinEbony-swatch.png" title="Black"
+                            price="$6,499 MSRP." />
+                          <img class="h-100" src="images/C1X-4-PolishedWhite-swatch.png" title="Polished White"
+                            price="$8,474 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CLP-675-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-675.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-675</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                          Binaural CFX Sampling
+                          GrandTouch Keyboard
+                          Linear Graded Hammers
+                          Grand Piano (GP) Response Damper Pedal
+                          Virtual Resonance Modeling (VRM)
+                          Key-off Samples
+                          Bluetooth Audio
+                          USB audio (WAV) recording/playback
+                          303 lesson songs from popular piano methods
+                          Included Accessories: Bench, 50 Classical Music Masterpieces Book, Headphones Hanger, Owner's Manual,Power Cord IEC C13 AC
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$5,999 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$5,999 MSRP." />
+                          <img class="h-100" src="images/C1X-2-SatinEbony-swatch.png" title="Black, Dark Walnut, Rosewood"
+                            price="$5,199 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CLP-665GP-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-665GP.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-665GP</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                            Binaural CFX Sampling
+                            GH3X (Graded Hammer 3X) Keyboard w/Synthetic Ebony & Ivory Key Tops, escapement
+                            Attractive Grand Piano Cabinet
+                            Virtual Resonance Modeling (VRM)
+                            Key-off Samples
+                            Bluetooth Audio
+                            USB audio (WAV) recording/playback
+                            1/8" AUX input 
+                            303 lesson songs from popular piano methods
+                            Included Accessories: Bench, 50 Classical Music Masterpieces Book, Headphones Hanger, Power Cable 1-15P to C7 Polarized (2 Prong), User Manual
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$6,199 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$6,199 MSRP." />
+                          <img class="h-100" src="images/C1X-4-PolishedWhite-swatch.png" title="Polished White"
+                            price="$6,999 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CLP-645-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-645.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-645</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                            Binaural CFX Sampling
+                            NWX (Natural Wood X) keyboard with Synthetic Ebony & Ivory Key Tops & escapement
+                            Virtual Resonance Modeling (VRM)
+                            Key-off Samples
+                            Bluetooth Audio
+                            USB audio (WAV) recording/playback
+                            Drum Rhythms
+                            16-track, 250 song recorder
+                            Included Accessories: Bench, Headphones Hanger, Owner's Manual
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$3,999 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$3,999 MSRP." />
+                          <img class="h-100" src="images/C1X-2-SatinEbony-swatch.png" title="Black, Dark Walnut, Rosewood"
+                            price="$3,499 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CLP-635-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-635.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-635</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                          Binaural CFX Sampling
+                          GH3X (Graded Hammer 3X) Keyboard w/Synthetic Ebony & Ivory Key Tops, escapement
+                          Virtual Resonance Modeling (VRM)
+                          Key-off Samples
+                          String Resonance
+                          Damper Resonance DSP
+                          USB audio (WAV) recording/playback
+                          Drum Rhythms
+                          1/8" AUX input 
+                          Included Accessories: Bench, 50 Classical Music Masterpieces Book, Headphones Hanger, Owner's Manual, PA300C                            
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$3,599 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$3,599 MSRP." />
+                          <img class="h-100" src="images/C1X-2-SatinEbony-swatch.png" title="Black, Dark Walnut, Rosewood"
+                            price="$2,999 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="CLP-625-tab" class="el-item tab-pane fade">
+                  <div class="uk-child-width-expand uk-grid">
+                    <div class="uk-width-1-2@m uk-first-column"><img src="images/CLP-625.jpg"></div>
+                    <div>
+                      <h3 class="uk-margin">CLP-625</h3>
+                      <div class="uk-margin">
+                        <p class="prod-info pre-line">Yamaha CFX & Bösendorfer Imperial piano samples
+                            GH3X (Graded Hammer 3X) Keyboard w/Synthetic Ebony & Ivory Key Tops, escapement
+                            Binaural CFX Sampling
+                            Key-off Samples
+                            String Resonance
+                            Damper Resonance DSP
+                            Acoustic Optimizer
+                            Intelligent Acoustic Control (IAC)
+                            Stereophonic Optimizer
+                            USB TO HOST
+                            Included Accessories: Bench, 50 Classical Music Masterpieces Book, Headphones Hanger, Owner's Manual
+                          <a>Download more specs here.</a>
+
+                          <span class="finish-price">$2,699 MSRP.</span>
+                          Prices may vary.
+                        </p>
+                        <div class="hovered-color">
+                          <strong>Colors / Finishes</strong> <span class="finish-name">Polished Ebony</span>
+                        </div>
+                        <div class="finish-hover-row">
+                          <img class="h-100" src="images/C1X-1-PolishedEbony-swatch.png" title="Polished Ebony"
+                            price="$2,699 MSRP." />
+                          <img class="h-100" src="images/C1X-2-SatinEbony-swatch.png" title="Black, Rosewood"
+                            price="$2,299 MSRP." />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- find a dealer -->
+    <div id="FindDealer" class="uk-section-muted uk-section uk-section-large">
+      <div class="uk-container">
+        <div class="uk-grid-small uk-grid-divider uk-grid-margin-small uk-grid uk-grid-stack">
+          <div class="uk-width-1-1@m uk-first-column">
+            <h2 class="uk-margin uk-text-center uk-h1">
+              <span class="header-underline">Find a Dealer</span>
+            </h2><br />
+            <div class="uk-margin uk-text-center"><img src="images/cta-trans-142c2523.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- END CODE FOR GWEB -->
+
+
+</body>
+
+</html>
+<script src="js/nav.js" type="text/javascript"></script>
+<script src="js/animation-elements.js" type="text/javascript"></script>
+<script src="js/site.js" type="text/javascript"></script>
