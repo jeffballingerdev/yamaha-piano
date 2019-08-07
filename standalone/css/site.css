@@ -205,11 +205,18 @@
   }
 }
 
+@media (max-width: 1199px) {
+  #piano-pg .md-mt-15 {
+    margin-top: 15px;
+  }
+}
+
 @media (max-width: 1599px) {
   #piano-pg .lg-mt-15 {
     margin-top: 15px;
   }
 }
+
 
 /* conversion from bootstrap 4 */
 #piano-pg .d-flex {
