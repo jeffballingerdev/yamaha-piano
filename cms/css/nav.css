@@ -187,7 +187,7 @@
 }
 
 #piano-pg .navbar-nav .dropdown-item:hover,
-#piano-pg .navbar.sticky-top .navbar-nav .dropdown-item:focus, 
+#piano-pg .navbar.sticky-top .navbar-nav .dropdown-item:focus,
 #piano-pg .navbar.sticky-top .navbar-nav .dropdown-item:hover {
   color: #d4d4d4;
 }
