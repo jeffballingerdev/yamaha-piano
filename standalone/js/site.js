@@ -64,7 +64,7 @@ $(function () {
 
     // show hovered image
     if ($(this).hasClass('hover-img') && $(this).attr('data-src'))
-      $(this).parent('.finish-hover-row').closest('.uk-section').find('.main-image img').attr('src', $(this).attr('data-src'));
+      $(this).parent('.finish-hover-row').closest('li').find('.main-image img').attr('src', $(this).attr('data-src'));
 
     // show price
     if ($(this).attr('price')) {

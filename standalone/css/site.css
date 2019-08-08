@@ -502,6 +502,7 @@
 #piano-pg .prod-info {
   font-size: 16px;
   line-height: 1.5;
+  padding-right: 5px;
 }
 
 #piano-pg h2.cta {
